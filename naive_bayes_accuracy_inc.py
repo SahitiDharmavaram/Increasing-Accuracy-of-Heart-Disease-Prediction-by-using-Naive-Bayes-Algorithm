@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('Heart-Disease-Prediction-master.zip.csv')
+dataset = pd.read_csv('Data-Heart-Disease-Prediction-master.zip.csv')
 x = dataset.iloc[:, [1, 2, 3, 5, 6, 7, 8]].values 
 y = dataset.iloc[:, -1].values
 
